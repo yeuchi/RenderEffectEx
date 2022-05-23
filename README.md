@@ -10,7 +10,7 @@ Initial lesson from Raywenderlich.com <sup>[1]</sup>
 
 # References:
 
-1. RenderEffect in Android 12 by Diayan Siat, September 6, 2021
+1. RenderEffect in Android 12 by Diayan Siat, September 6, 2021 /
 https://www.raywenderlich.com/24255307-rendereffect-in-android-12
 
 2. RenderEffect: Using Android's new API to solve image rendering problems by Fernando Henrique Brasil, May 25, 22021
