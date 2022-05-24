@@ -5,7 +5,8 @@ Android 12 new shader feature - RenderEffect.
 ### createBlurEffect(...)
 Identical to example from Raywenderlich.com <sup>[1]</sup> 
 
-<img width="250" src="https://user-images.githubusercontent.com/1282659/169724686-cccd2d6f-8c3f-4b03-8dab-714494adabac.png"> <img width="250" src="https://user-images.githubusercontent.com/1282659/169724687-964c0d90-5cfc-4fe6-b3d3-3bd8da54a1d0.png">
+<img width="250" src="https://user-images.githubusercontent.com/1282659/170149389-79ac3ae2-2c48-4c9b-8ed4-c11ef63fa90e.png"> <img width="250" src="https://user-images.githubusercontent.com/1282659/170149395-9237cbe5-971f-420f-84f3-7b4e9ead0c6a.png">
+
 
 
 # References:
