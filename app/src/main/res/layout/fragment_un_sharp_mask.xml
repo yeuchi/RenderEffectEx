@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".BlurFragment">
+    tools:context=".UnSharpMaskFragment">
 
     <ImageView
         android:id="@+id/image_view"
@@ -18,10 +18,8 @@
         app:srcCompat="@drawable/white_lion" />
 
     <CheckBox
-        android:id="@+id/chk_blur"
+        android:id="@+id/chk_mask"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="blur" />
-
-</androidx.appcompat.widget.LinearLayoutCompat>
-
+        android:text="UnsharpMask" />
+</LinearLayout>

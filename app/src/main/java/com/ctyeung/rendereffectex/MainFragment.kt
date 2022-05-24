@@ -26,9 +26,17 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<Button>(R.id.btn_blur)?.apply {
-            setOnClickListener {
-                findNavController().navigate(R.id.action_mainFragment_to_blurFragment)
+        view.apply {
+            findViewById<Button>(R.id.btn_blur)?.apply {
+                setOnClickListener {
+                    findNavController().navigate(R.id.action_mainFragment_to_blurFragment)
+                }
+            }
+
+            findViewById<Button>(R.id.btn_mask)?.apply {
+                setOnClickListener {
+                    findNavController().navigate(R.id.action_mainFragment_to_unsharpMaskFragment)
+                }
             }
         }
     }

@@ -9,16 +9,25 @@
         android:id="@+id/mainFragment"
         android:name="com.ctyeung.rendereffectex.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
-    <action
-        android:id="@+id/action_mainFragment_to_blurFragment"
-        app:destination="@id/blurFragment" />
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_blurFragment"
+            app:destination="@id/blurFragment" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_unsharpMaskFragment"
+            app:destination="@id/unsharpMaskFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/blurFragment"
         android:name="com.ctyeung.rendereffectex.BlurFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
-    </fragment>
+        android:label="fragment_blur"
+        tools:layout="@layout/fragment_blur" />
+
+    <fragment
+        android:id="@+id/unsharpMaskFragment"
+        android:name="com.ctyeung.rendereffectex.UnSharpMaskFragment"
+        android:label="fragment_un_sharp_mask"
+        tools:layout="@layout/fragment_un_sharp_mask" />
 </navigation>
